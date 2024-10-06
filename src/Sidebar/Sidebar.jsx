@@ -37,7 +37,7 @@ const Sidebar = () => {
                 <div onClick={()=>{
                   load(item);
                 }}className="recent-entry">
-              <img src="src\assets\chat_bubble_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="" />
+              <img src={assets.message_icon} alt="" />
               
               <p >{item.slice(0,23)}... </p>
             </div>
