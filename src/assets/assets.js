@@ -1,5 +1,5 @@
 import history_icon from './history_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png'
-import menu_icon from './menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png'
+import menu_icon from './menu_icon.png'
 import plus_icon from './plus_icon.png'
 import question_icon from './help_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png'
 import setting_icon from './settings_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png'
