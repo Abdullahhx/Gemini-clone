@@ -60,7 +60,7 @@ const Main = () => {
                   className="card"
                 >
                   <p>Find the best running trails nearby</p>
-                  <img src="src\assets\explore_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" />
+                  <img src={assets.compass_icon} />
                 </div>
                 <div
                   onClick={(e) => {
@@ -71,7 +71,7 @@ const Main = () => {
                   className="card"
                 >
                   <p>What are tips to improve public speaking skills?</p>
-                  <img src="src\assets\lightbulb_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" />
+                  <img src={assets.bulb_icon} />
                 </div>
                 <div
                   onClick={(e) => {
@@ -82,7 +82,7 @@ const Main = () => {
                   className="card"
                 >
                   <p>Create a 12-week study plan for learning a new language</p>
-                  <img src="src\assets\chat_bubble_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" />
+                  <img src={assets.message_icon} />
                 </div>
                 <div
                   onClick={(e) => {
@@ -93,7 +93,7 @@ const Main = () => {
                   className="card"
                 >
                   <p>Give me tips for how to grow my YouTube channel</p>
-                  <img src="src\assets\code_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" />
+                  <img src={assets.code_icon} />
                 </div>
               </div>
             </>
@@ -130,14 +130,14 @@ const Main = () => {
                 placeholder="Enter a prompt here"
               />
               <div>
-                <img src="src\assets\mic_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" />
-                <img src="src\assets\image_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" />
+                <img src={assets.mic_icon} />
+                <img src={assets.gallery_icon} />
                 {input !== "" && (
                   <img className="send"
                     onClick={() => {
                       onSent();
                     }}
-                    src="src/assets/send_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png"
+                    src={assets.send_icon}
                     alt="send"
                   />
                 )}
