@@ -21,7 +21,7 @@ const Sidebar = () => {
   return (
     <div className={`sidebar ${extended ? 'sidebar--extended' : ''}`}>
       <div className="top">
-        <img className="menu" onClick={handleSidebar} src="src\assets\menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png"alt="menu" />
+        <img className="menu" onClick={handleSidebar} src={assets.menu_icon} alt="menu" />
         <div onClick={()=>{
           newchat()
         }} className="new-chat">
@@ -50,15 +50,15 @@ const Sidebar = () => {
       </div>
       <div className="bottom">
         <div className="bottom-item recent-entry">
-          <img src="src\assets\help_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="" />
+          <img src={assets.question_icon} alt="" />
           {extended?<p>Help</p>:null}
         </div>
         <div className="bottom-item recent-entry">
-          <img src="src\assets\history_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="" />
+          <img src={assets.history_icon} alt="" />
           {extended?<p>Activity</p>:null}
         </div>
         <div className="bottom-item recent-entry">
-          <img src="src\assets\settings_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="" />
+          <img src={assets.setting_icon} alt="" />
           {extended?<p>Settings</p>:null}
         </div>
       </div>
