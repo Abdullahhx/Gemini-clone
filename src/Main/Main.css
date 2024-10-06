@@ -225,16 +225,14 @@ opacity: 1;
     .main-bottom img{
         width: 20px;
     }
-    .search-box{
-        /* padding: 5px 10px; */
-    }
+    /* .search-box{
+        /* padding: 5px 10px; 
+    } */
     .search-box div{
         gap: 5px;
     }
     .search-box input{
         width: 200px;
     }
-       
-    
 
 }
