@@ -21,7 +21,7 @@ const Sidebar = () => {
   return (
     <div className={`sidebar ${extended ? 'sidebar--extended' : ''}`}>
       <div className="top">
-        <img className="menu" onClick={handleSidebar} src="src\assets\menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png"alt="" />
+        <img className="menu" onClick={handleSidebar} src="src\assets\menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png"alt="menu" />
         <div onClick={()=>{
           newchat()
         }} className="new-chat">
